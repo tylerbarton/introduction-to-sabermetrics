@@ -1,0 +1,57 @@
+---
+title: "Introduction to Sabermetrics"
+output: html_notebook
+---
+
+# The Basics of Baseball
+
+
+In favor of relevancy, complex details are omitted.
+
+
+## Game Overview
+A game of Baseball consists of 9 innings in-which both teams get a chance to bat until 3 outs are accumulated, at which point the teams switch. An *out* common occurs in one of four ways:
+* strikeout
+* catches
+* force outs
+* tag outs
+But interference or illegal moves also result in an out.
+
+### Roles
+In Major League Baseball, each team has a roster of 25 players with specific roles. However, a game of baseball can be played with teams of 9. Along with a pitcher, there are eight position players:
+* 1 Catcher
+* 4 Infielders
+* 3 Outfielders
+
+## Statistics
+### Batting Statistics
+* At Bats: (Excludes walks and hit by pitcher) plate appearances.
+* Hits: Times a base is reached safely.
+* Runs: Times a point is scored.
+* Runs Battled In (RBIs): Number of runners that scored due to this batter's action.
+* Home runs: Hit in which all four bases are touched.
+* Batting average: Hits divided by at bats.
+
+### Baserunning Statistics
+* Stolen Bases: Times a runner makes it to base using solely their own efforts.
+* Caught stealing: Times a runner is tagged out while attempting to steal a base.
+
+### Pitching Statistics
+* Wins: Credited to the pitcher on the winning team who last pitched before the team took the lead that went uncontested.
+* Losses: Charged to the pitcher that was pitching when the other team took the lead that was left uncontested.
+* Win Percentage: Wins divided by decisions (wins plus losses)
+* Innings Pitched: Outs recorded while pitching divided by 3.
+* Strikeouts: Times pitching got a batter to three strikes, resulting in a strikeout
+* Earned Run Average (ERA): Runs allowed, excluding those results from fielding errors per nine innings pitched
+
+### Fielding Statistics
+* Putouts: Incremented when a fielder directly effects an out (catches a fly ball, tagout, forceout, etc)
+* Assist: Times a putout is recorded following this fielder touching the ball.
+* Errors: Times the fails to make a common-effort play and the offensive team benefits as a result
+* Total Chances: Putouts plus assists plus errors
+* Fielding Average: Putouts plus assists divided by total chances
+
+
+The code chunk appears:
+```{r}
+```
